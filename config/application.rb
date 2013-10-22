@@ -6,7 +6,6 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-config.assets.initialize_on_precompile = false
 
 module MoreSleep
   class Application < Rails::Application
@@ -23,3 +22,6 @@ module MoreSleep
     # config.i18n.default_locale = :de
   end
 end
+
+
+config.assets.initialize_on_precompile = false
