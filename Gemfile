@@ -1,12 +1,24 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
-gem 'sqlite3'
-gem 'sass-rails', '~> 4.0.0'
-gem 'uglifier', '>= 1.3.0'
 gem 'high_voltage'
-gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
+
+group :development do
+  gem 'sqlite3'
+end
+
+group :assets do
+	gem 'coffee-rails', '~> 4.0.0'
+	gem 'sass-rails', '~> 4.0.0'
+	gem 'uglifier', '>= 1.3.0'
+	gem 'bourbon'
+	gem 'neat'
+end
+
+group :production do
+  gem 'pg'
+end
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
