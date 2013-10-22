@@ -1,7 +1,5 @@
 $pink: #FA4042
 
-
-
 .background_pattern
   background-image: url(pattern.jpg) 
   width: 100%
@@ -13,11 +11,11 @@ $pink: #FA4042
 
 /*********************** INTRO SECTION **************/
 
-#desktop_background, #logo, #header_text, #header_subtext, #pink_intro_bg
+#desktop_background, #logo, #header_text, #header_subtext
   position: absolute
   width: 100%
 
-#logo, #header_text, #header_subtext, #pink_intro_bg
+#logo, #header_text, #header_subtext
   text-align: center
   z-index: 3
 
@@ -32,7 +30,7 @@ $pink: #FA4042
   color: $pink
   font-size: 120px
   line-height: .85em
-  padding-top: 185px
+  padding-top: 190px
 
 #header_subtext
   color: white
@@ -43,14 +41,14 @@ $pink: #FA4042
 #pink_intro_bg
   background-color: $pink
   height: 800px
-  margin-top: 744px
+  margin-top: -5px
+  z-index: 3
 
 #desktop_background
   height: 100%
   width: 100%
   z-index: 2
-  position: absolute
-  overflow: hidden
+  position: relative
   img
     max-width: auto
     width: 100%
