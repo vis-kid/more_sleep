@@ -27,7 +27,7 @@ $pink: #FA4042
   height: 100%
   
 #header_text
-  color: $pink
+  color: #FE504F
   font-size: 120px
   line-height: .85em
   padding-top: 190px
@@ -46,11 +46,15 @@ $pink: #FA4042
   position: relative
 
 #desktop_background
-  height: 100%
-  width: 100%
   z-index: 4
+  min-height: 700px
+  max-height: 700px
+  overflow: hidden
   position: relative
-  position: fixed
+  display: block
+  box-sizing: border-box
   img
-    max-width: auto
+    position: absolute
+    min-width: 1500px
     width: 100%
+    z-index: 5
