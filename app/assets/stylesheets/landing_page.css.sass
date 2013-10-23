@@ -1,3 +1,6 @@
+@import 'bourbon'
+@import 'neat'
+
 $pink: #FA4042
 
 .background_pattern
@@ -30,13 +33,15 @@ $pink: #FA4042
   color: #FE504F
   font-size: 120px
   line-height: .85em
-  padding-top: 190px
+  padding-top: 150px
+  text-transform: uppercase
 
 #header_subtext
   color: white
   font-size: 30px
-  padding-top: 600px
-
+  padding-top: 650px
+  +media(min-width 1219px)
+    padding-top: 540px 
 
 #pink_intro_bg
   background-color: $pink
@@ -47,8 +52,8 @@ $pink: #FA4042
 
 #desktop_background
   z-index: 4
-  min-height: 700px
-  max-height: 700px
+  min-height: 750px
+  max-height: 750px
   overflow: hidden
   position: relative
   display: block
