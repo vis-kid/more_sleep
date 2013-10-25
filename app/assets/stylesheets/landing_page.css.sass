@@ -18,20 +18,25 @@ $pink: #FA4042
 
 /*********************** INTRO SECTION **************/
 
-#desktop_background, #logo, #header_text, #header_subtext, #piggie_text
+#desktop_background, #logo, #header_text, #header_subtext 
   position: absolute
   width: 100%
 
-#logo, #header_text, #header_subtext, #creating_value, #piggie_text
+#logo, #header_text, #header_subtext, #creating_value, 
   text-align: center
-  z-index: 5
+  z-index: 7
 
 #intro_section
   position: relative
+  z-index: 9
 
 #logo
   padding-top: 80px
   height: 100%
+
+#piggie_text
+  z-index: 7
+  text-align: center
   
 #header_text, #creating_value, #piggie_text
   color: #FE504F
@@ -57,12 +62,12 @@ $pink: #FA4042
   background-color: #FE504F
   height: 1040px
   width: 100%
-  margin-top: -75px
-  z-index: 4
+  margin-top: -80px
+  z-index: 5
   position: relative
 
 #desktop_background
-  z-index: 4
+  z-index: 6
   min-height: 766px
   max-height: 766px
   overflow: hidden
