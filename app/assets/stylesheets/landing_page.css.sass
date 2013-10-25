@@ -18,11 +18,11 @@ $pink: #FA4042
 
 /*********************** INTRO SECTION **************/
 
-#desktop_background, #logo, #header_text, #header_subtext, #piggie
+#desktop_background, #logo, #header_text, #header_subtext, #piggie_text
   position: absolute
   width: 100%
 
-#logo, #header_text, #header_subtext, #creating_value, #piggie
+#logo, #header_text, #header_subtext, #creating_value, #piggie_text
   text-align: center
   z-index: 5
 
@@ -90,17 +90,25 @@ $pink: #FA4042
         text-decoration: none
         color: white
 
-.skill_pics 
-
-#Plane_Pic
-  z-index: 5
-  position: absolute
-  width: 100%
+#plane_pic
+  z-index: 6
   margin-top: -100px
+  overflow: hidden
+  min-height: 766px
+  max-height: 766px
+  position: absolute
+  img
+    position: relative
+    min-width: 1200px
+    width: 100%
+    z-index: 6
 
-#piggie
-  padding-top: 515px
-  margin-left: -240px
+#piggie_text
+  position: absolute
+  z-index: 7
+  padding-top: 480px
+  margin-left: auto
   font-size: 2em
   color: #FE504F
   text-transform: uppercase
+  width: 100%
