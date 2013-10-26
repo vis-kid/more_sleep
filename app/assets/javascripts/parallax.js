@@ -11,3 +11,4 @@ function parallax() {
 	$('.background_pattern').css('top', (0 - (scrollPosition * .25)) + 'px');
 	$('#piggie_text').css('top', (0 - (scrollPosition * .5)) + 'px');
 }
+
