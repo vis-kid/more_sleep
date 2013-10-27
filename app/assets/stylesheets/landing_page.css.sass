@@ -117,6 +117,9 @@ $pink: #FA4042
   text-transform: uppercase
   width: 100%
 
+.pink_wrapper
+  z-index: 6
+  background-color: blue
 
 #sinatra
   +outer-container
@@ -127,8 +130,9 @@ $pink: #FA4042
   margin-top: 4100px
   max-height: 100%
   max-width: 100%
+  background-color: blue
 
-#applying
+#applying_text
   +outer-container
   +span-columns(5)
   +shift(1)
@@ -137,5 +141,58 @@ $pink: #FA4042
   margin-top: 5600px
   color: white
   text-transform: uppercase
-  font-size: 3em
+  font-size: 5em
   margin-left: 10%
+
+
+#dreamer
+  +outer-container
+  +span-columns(5)
+  +shift(1)
+  z-index: 6
+  position: absolute
+  margin-top: 5500px
+  max-height: 100%
+  max-width: 100%
+
+#dreamer_text
+  +outer-container
+  +span-columns(12)
+  +shift(.05)
+  z-index: 6
+  position: absolute
+  margin-top: 7500px
+  color: white
+  text-transform: uppercase
+  font-size: 5em
+  text-align: center
+
+#workbuddoff_pic
+  
+
+
+#workbuddoff_text
+  +outer-container
+  +span-columns(12)
+  +shift(.05)
+  z-index: 6
+  position: absolute
+  margin-top: 7500px
+  color: white
+  text-transform: uppercase
+  font-size: 5em
+  text-align: center
+
+
+#workbuddoff_pic
+  z-index: 9
+  margin-top: 3000px
+  overflow: hidden
+  min-height: 766px
+  max-height: 766px
+  position: absolute
+  img
+    position: relative
+    min-width: 1300px
+    width: 100%
+    z-index: 6
