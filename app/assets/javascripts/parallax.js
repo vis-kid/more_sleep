@@ -16,6 +16,8 @@ function parallax() {
 	Dreamer_Text = $('#dreamer_text');
 	Workbuddoff = $('#workbuddoff_pic');
 	Workbuddoff_Text = $('#workbuddoff_text');
+	Jackasses = $('#jackasses');
+	Jackasses_Text= $('#jackasses_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .25)) + 'px');
@@ -27,5 +29,7 @@ function parallax() {
 	Dreamer_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Workbuddoff.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Workbuddoff_Text.css('top', (0 - (scrollPosition * 1.3)) + 'px');
+	Jackasses.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Jackasses_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
