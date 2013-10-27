@@ -20,7 +20,7 @@ function parallax() {
 	Jackasses_Text= $('#jackasses_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
-	Background_Pattern.css('top', (0 - (scrollPosition * .25)) + 'px');
+	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
 	Piggie_Text.css('top', (0 - (scrollPosition * .5)) + 'px');
 
 	Sinatra.css('top', (0 - (scrollPosition * .5)) + 'px');
