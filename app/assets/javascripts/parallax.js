@@ -22,6 +22,8 @@ function parallax() {
 	Agile_Text = $('#agile_text');
 	Teamwork = $('#teamwork_pic');
 	Teamwork_Text = $('#teamwork_text');
+	Grace = $('#grace_pic');
+	Grace_Text = $('#grace_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
@@ -39,5 +41,7 @@ function parallax() {
 	Agile_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Teamwork.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Teamwork_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Grace.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Grace_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
