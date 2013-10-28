@@ -95,7 +95,7 @@ $pink: #FA4042
         text-decoration: none
         color: white
 
-#plane_pic, #workbuddoff_pic, #agile_pic
+#plane_pic, #workbuddoff_pic, #agile_pic, #teamwork_pic
   z-index: 6
   margin-top: -60px
   overflow: hidden
@@ -195,11 +195,11 @@ $pink: #FA4042
 
 #jackasses_text
   +outer-container
-  +span-columns(12)
-  +shift(.05)
+  +span-columns(10)
+  +shift(1)
   z-index: 6
   position: absolute
-  margin-top: 11000px
+  margin-top: 10800px
   color: white
   text-transform: uppercase
   font-size: 5em
@@ -229,3 +229,21 @@ $pink: #FA4042
 
 .indent4
   padding-left: 515px
+
+#teamwork_pic
+  z-index: 6
+  margin-top: 10600px
+
+#teamwork_text
+  +outer-container
+  +span-columns(6)
+  +shift(3)
+  z-index: 6
+  position: absolute
+  margin-top: 14200px
+  color: #FE504F
+  text-transform: uppercase
+  font-size: 5em
+
+.teamwork_padding
+  padding-left: 130px

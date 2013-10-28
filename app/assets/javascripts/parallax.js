@@ -20,6 +20,8 @@ function parallax() {
 	Jackasses_Text= $('#jackasses_text');
 	Agile = $('#agile_pic');
 	Agile_Text = $('#agile_text');
+	Teamwork = $('#teamwork_pic');
+	Teamwork_Text = $('#teamwork_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
@@ -35,5 +37,7 @@ function parallax() {
 	Jackasses_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Agile.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Agile_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Teamwork.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Teamwork_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
