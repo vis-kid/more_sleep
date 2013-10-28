@@ -31,6 +31,8 @@ function parallax() {
 	Balance_Text_Rotated = $('#rotated');
 	Team = $('#team_pic');
 	Team_Text = $('#team_text');
+	Down = $('#down_to_earth');
+	Down_Text = $('#down_to_earth_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
@@ -57,5 +59,7 @@ function parallax() {
 	Balance_Text_Rotated.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Team.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Team_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Down.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Down_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
