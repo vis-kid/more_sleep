@@ -24,6 +24,8 @@ function parallax() {
 	Teamwork_Text = $('#teamwork_text');
 	Grace = $('#grace_pic');
 	Grace_Text = $('#grace_text');
+	Crunchtime = $('#crunchtime_pic');
+	Crunchtime_Text = $('#crunchtime_text');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
@@ -43,5 +45,7 @@ function parallax() {
 	Teamwork_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Grace.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Grace_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Crunchtime.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Crunchtime_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
