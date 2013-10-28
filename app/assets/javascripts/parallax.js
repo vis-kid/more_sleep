@@ -26,6 +26,9 @@ function parallax() {
 	Grace_Text = $('#grace_text');
 	Crunchtime = $('#crunchtime_pic');
 	Crunchtime_Text = $('#crunchtime_text');
+	Balance = $('#balance_pic');
+	Balance_Text = $('#balance_text');
+	Balance_Text_Rotated = $('#rotated');
 
 	Desktop_Pic.css('top', (0 - (scrollPosition * .4 )) + 'px');
 	Background_Pattern.css('top', (0 - (scrollPosition * .35)) + 'px');
@@ -47,5 +50,8 @@ function parallax() {
 	Grace_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
 	Crunchtime.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Crunchtime_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Balance.css('top', (0 - (scrollPosition * .5)) + 'px');
+	Balance_Text.css('top', (0 - (scrollPosition * 1)) + 'px');
+	Balance_Text_Rotated.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
 
