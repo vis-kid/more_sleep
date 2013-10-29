@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $(window).bind('scroll', function(e) {
+		parallax(); 
 		find_me_bar();
 		static_bar();
-		parallax(); 
 	});
 });
 
