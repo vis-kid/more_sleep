@@ -1,8 +1,8 @@
 $(document).ready(function() {
   $(window).bind('scroll', function(e) {
+		parallax(); 
 		find_me_bar();
 		static_bar();
-		parallax(); 
 	});
 });
 
@@ -29,7 +29,7 @@ function find_me_bar() {
     Find_Me_Bar.hide();
 	}
 	else {
-		Find_Me_Bar.show();
+		Static_Bar.show();
 	}  
 }
 
