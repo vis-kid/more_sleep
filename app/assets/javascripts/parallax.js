@@ -9,7 +9,7 @@ $(document).ready(function() {
 function static_bar() {
 	Static_Bar = $('#static_bar');
   var top = $(document).scrollTop();
-	if (top > 3500) {
+	if (top > 3300) {
 	  Static_Bar.fadeIn();
 	}
 	else {
