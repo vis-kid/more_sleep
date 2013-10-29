@@ -1,9 +1,21 @@
 $(document).ready(function() {
   $(window).bind('scroll', function(e) {
 		parallax(); 
+		static_bar();
 	});
 });
 
+
+function static_bar() {
+	Static_Bar = $('#static_bar');
+  var top = $(document).scrollTop();
+	if (top > 3500) {
+	  Static_Bar.fadeIn();
+	}
+	else {
+		Static_Bar.hide();
+	}  
+}
 
 function parallax() {
   var scrollPosition = $(window).scrollTop();
