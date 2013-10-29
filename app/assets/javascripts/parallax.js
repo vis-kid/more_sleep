@@ -9,7 +9,10 @@ $(document).ready(function() {
 function static_bar() {
 	Static_Bar = $('#static_bar');
   var top = $(document).scrollTop();
-	if (top > 3300) {
+	if (top > 12000) {
+	  Static_Bar.text('find me here');
+	}
+	else if (top > 3300) {
 	  Static_Bar.fadeIn();
 	}
 	else {
