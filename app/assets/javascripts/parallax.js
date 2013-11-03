@@ -3,13 +3,25 @@ $(document).ready(function() {
 		parallax(); 
 		find_me_bar();
 		static_bar();
+		preview_bar();
 	});
 });
 
 
+function preview_bar() {
+	Preview = $('#mini_preview');
+  var top = $(document).scrollTop();
+	if (top > 3300) {
+		Preview.show();
+	}
+	else {
+    Preview.hide();
+	}  
+}
 
 function static_bar() {
 	Static_Bar = $('#static_bar');
+	Preview = $('#mini_preview');
   var top = $(document).scrollTop();
 	if (top > 12000) {
     Static_Bar.hide();
