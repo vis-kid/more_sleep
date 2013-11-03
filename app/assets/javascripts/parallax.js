@@ -1,11 +1,37 @@
 $(document).ready(function() {
+
   $(window).bind('scroll', function(e) {
 		parallax(); 
 		find_me_bar();
 		static_bar();
 		preview_bar();
 	});
+
+  html_body = $('html, body')
+  one = $('img#1') 
+  two = $('img#2') 
+  three= $('img#3') 
+  four = $('img#4') 
+  five = $('img#5') 
+  six = $('img#6') 
+  seven = $('img#7') 
+  eight = $('img#8') 
+  nine = $('img#9') 
+  ten = $('img#10') 
+  eleven = $('img#11') 
+  twelve = $('img#12') 
+
+  one.click(function() {
+    html_body.animate({ scrollTop: 0 }, 1000 );
+      return false;
+  });
+
+  two.click(function() {
+    html_body.animate({ scrollTop: 2735 }, 1000 );
+      return false;
+  });
 });
+
 
 
 function preview_bar() {
@@ -107,4 +133,5 @@ function parallax() {
 	Crazy.css('top', (0 - (scrollPosition * .5)) + 'px');
 	Larry.css('top', (0 - (scrollPosition * 1)) + 'px');
 }
+
 
