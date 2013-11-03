@@ -20,6 +20,7 @@ $(document).ready(function() {
   ten = $('img#10') 
   eleven = $('img#11') 
   twelve = $('img#12') 
+  thirteen = $('img#13') 
 
   one.click(function() {
     html_body.animate({ scrollTop: 0 }, 1000 );
@@ -30,6 +31,65 @@ $(document).ready(function() {
     html_body.animate({ scrollTop: 2735 }, 1000 );
       return false;
   });
+
+  three.click(function() {
+    html_body.animate({ scrollTop: 3620 }, 1000 );
+      return false;
+  });
+
+  four.click(function() {
+    html_body.animate({ scrollTop: 4420 }, 1000 );
+      return false;
+  });
+
+  five.click(function() {
+    html_body.animate({ scrollTop: 5280 }, 1000 );
+      return false;
+  });
+
+  six.click(function() {
+    html_body.animate({ scrollTop: 6150 }, 1000 );
+      return false;
+  });
+
+  seven.click(function() {
+    html_body.animate({ scrollTop: 7016 }, 1000 );
+      return false;
+  });
+
+  eight.click(function() {
+    html_body.animate({ scrollTop: 7886 }, 1000 );
+      return false;
+  });
+
+  nine.click(function() {
+    html_body.animate({ scrollTop: 8600 }, 1000 );
+      return false;
+  });
+
+  ten.click(function() {
+    html_body.animate({ scrollTop: 9600 }, 1000 );
+      return false;
+  });
+
+  eleven.click(function() {
+    html_body.animate({ scrollTop: 10380 }, 1000 );
+      return false;
+  });
+
+  twelve.click(function() {
+    html_body.animate({ scrollTop: 11280 }, 1000 );
+      return false;
+  });
+
+  thirteen.click(function() {
+    html_body.animate({ scrollTop: 12214 }, 1000 );
+      return false;
+  });
+
+
+
+
 });
 
 
